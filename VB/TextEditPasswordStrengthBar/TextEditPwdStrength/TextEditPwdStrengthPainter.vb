@@ -16,8 +16,8 @@ Namespace TextEditPasswordStrengthBar
             MyBase.New()
         End Sub
 
-        Protected Overrides Sub DrawTextBoxArea(ByVal info As ControlGraphicsInfoArgs)
-            MyBase.DrawTextBoxArea(info)
+        Protected Overrides Sub DrawContent(ByVal info As ControlGraphicsInfoArgs)
+            MyBase.DrawContent(info)
             Me.DrawLine(info)
         End Sub
 
