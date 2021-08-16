@@ -13,10 +13,9 @@ namespace TextEditPasswordStrengthBar
     class TextEditPwdStrengthPainter : TextEditPainter
     {
         public TextEditPwdStrengthPainter() : base() { }
-
-        protected override void DrawTextBoxArea(ControlGraphicsInfoArgs info)
-        {
-            base.DrawTextBoxArea(info);
+        
+        protected override void DrawContent(ControlGraphicsInfoArgs info) {
+            base.DrawContent(info);
             this.DrawLine(info);
         }
 
