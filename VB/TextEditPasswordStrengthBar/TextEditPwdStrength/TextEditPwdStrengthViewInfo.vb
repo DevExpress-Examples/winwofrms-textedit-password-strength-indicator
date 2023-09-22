@@ -1,12 +1,9 @@
-﻿Imports System
-Imports System.Collections.Generic
-Imports System.Linq
-Imports System.Text
 Imports System.Drawing
 Imports DevExpress.XtraEditors.ViewInfo
 Imports DevExpress.XtraEditors.Repository
 
 Namespace TextEditPasswordStrengthBar
+
     Friend Class TextEditPwdStrengthViewInfo
         Inherits TextEditViewInfo
 
@@ -14,9 +11,9 @@ Namespace TextEditPasswordStrengthBar
             MyBase.New(item)
         End Sub
 
-        Public ReadOnly Property RepositoryItem() As RepositoryItemTextEditPwdStrength
+        Public ReadOnly Property RepositoryItem As RepositoryItemTextEditPwdStrength
             Get
-                Return TryCast(Me.Item, RepositoryItemTextEditPwdStrength)
+                Return TryCast(Item, RepositoryItemTextEditPwdStrength)
             End Get
         End Property
 
