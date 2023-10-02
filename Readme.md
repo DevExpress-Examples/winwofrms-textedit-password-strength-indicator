@@ -6,7 +6,7 @@
 
 # WinForms Text Editor - Display password strength indicator
 
-This example creates a custom text editor that displays strength of the entered password.
+This example creates a custom text editor that displays the strength of the entered password.
 
 > **Note**
 >
